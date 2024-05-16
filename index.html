@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>幸福时光</title>
+    <style>
+        body {
+            font-family: '宋体', sans-serif;
+            background-color: #fefefe;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffe4e1;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #ff69b4;
+        }
+        header p {
+            margin: 5px 0;
+            color: #555;
+        }
+        nav {
+            background-color: #ffdab9;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+        }
+        .hero {
+            background: url('your-photo-url.jpg') no-repeat center center/cover;
+            height: 300px;
+            position: relative;
+        }
+        .hero h2 {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+        .content {
+            display: flex;
+            padding: 20px;
+        }
+        .main {
+            flex: 2;
+            margin-right: 20px;
+        }
+        .sidebar {
+            flex: 1;
+        }
+        .post {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .sidebar .profile, .sidebar .popular-posts, .sidebar .social-media {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #ffe4e1;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>幸福时光</h1>
+        <p>记录我们生活中的每一个美好瞬间</p>
+    </header>
+    <nav>
+        <a href="#">首页</a>
+        <a href="#">关于我们</a>
+        <a href="#">博客文章</a>
+        <a href="#">照片墙</a>
+        <a href="#">联系我们</a>
+    </nav>
+    <div class="hero">
+        <h2>美好的时光</h2>
+    </div>
+    <div class="content">
+        <div class="main">
+            <div class="post">
+                <h3>最新博客文章标题</h3>
+                <p>这是最新博客文章的摘要...</p>
+                <p>发布日期：2024-05-16</p>
+            </div>
+            <!-- 更多博客文章可以类似这样添加 -->
+        </div>
+        <div class="sidebar">
+            <div class="profile">
+                <h3>个人简介</h3>
+                <p>简单介绍一下你自己和你妻子。</p>
+            </div>
+            <div class="popular-posts">
+                <h3>热门文章</h3>
+                <ul>
+                    <li><a href="#">热门文章标题1</a></li>
+                    <li><a href="#">热门文章标题2</a></li>
+                    <li><a href="#">热门文章标题3</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <h3>关注我们</h3>
+                <p>微信: <a href="#">@你的微信</a></p>
+                <p>微博: <a href="#">@你的微博</a></p>
+                <p>Instagram: <a href="#">@你的Instagram</a></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 幸福时光. 保留所有权利。</p>
+    </footer>
+</body>
+</html>
